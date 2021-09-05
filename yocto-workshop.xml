@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openembedded" fetch="https://github.com/openembedded/" />
+  <remote name="riscv" fetch="https://github.com/riscv/" />
+  <default remote="openembedded" revision="master" />
+
+  <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="a6bff45243851573357532be3abbc3ac5442be78" />
+  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="1e18b514bf1f960d324a21db608c8e8e5af007ef" />
+  <project name="bitbake" remote="openembedded" path="openembedded-core/bitbake" revision="653df4bc413d595d5611d5fa678e7f2e30bb7431" />
+  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="1b358be2b88eb78b557fbb2479321c2fdcbac9e0" />
+
+</manifest>
+
