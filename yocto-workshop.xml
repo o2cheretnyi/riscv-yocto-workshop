@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <remote name="openembedded" fetch="https://github.com/openembedded/" />
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git/poky/" />
   <remote name="riscv" fetch="https://github.com/riscv/" />
-  <default remote="openembedded" revision="master" />
+  <default remote="yocto" revision="master" />
 
   <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="a6bff45243851573357532be3abbc3ac5442be78" />
-  <project name="openembedded-core" remote="openembedded" path="openembedded-core" revision="71b549924a7fa7973a8e03e11f3db45fdc29889d" />
-  <project name="bitbake" remote="openembedded" path="openembedded-core/bitbake" revision="aaa5292ef96ea27f505bc5c5a4b1eb4f497ed061" />
-  <project name="meta-openembedded" remote="openembedded" path="meta-openembedded" revision="32140218a8026016687c7017a82113b0b45cf1a6" />
+  <project name="poky" remote="yocto" path="poky" revision="4437754142f6d0e8f3cf9ffbb51c61321b8c5600" />
 
 </manifest>
 
