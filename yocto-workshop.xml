@@ -4,10 +4,12 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="riscv" fetch="https://github.com/riscv/" />
   <remote name="workshop" fetch="https://github.com/o2cheretnyi/" />
+  <remote name="cache" fetch="https://gitlab.com/o2cheretnyi/" />
   <default remote="yocto" revision="honister" />
 
   <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="108530d4da6cf04a01cd0c53abfaed6776f90fc4" />
   <project name="meta-workshop" remote="workshop" path="meta-workshop" revision="main" />
+  <project name="workshop-cache" remote="cache" path="workshop-cache" revision="main" />
   <project name="poky" remote="yocto" path="poky" revision="4437754142f6d0e8f3cf9ffbb51c61321b8c5600" />
 
 </manifest>
