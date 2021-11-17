@@ -10,8 +10,8 @@
   <project name="meta-riscv" remote="riscv" path="meta-riscv" revision="108530d4da6cf04a01cd0c53abfaed6776f90fc4" />
   <project name="meta-sifive" remote="workshop" path="meta-sifive" revision="2021.10" />
   <project name="meta-workshop" remote="workshop" path="meta-workshop" revision="main" />
-  <project name="workshop-state" remote="cache" path="workshop-sstate-cache" revision="main" />
-  <project name="workshop-download" remote="cache" path="workshop-downloads" revision="main" />
+  <project name="workshop-sstate" remote="cache" path="workshop-sstate" revision="main" />
+  <project name="workshop-download" remote="cache" path="workshop-download" revision="main" />
   <project name="poky" remote="yocto" path="poky" revision="4437754142f6d0e8f3cf9ffbb51c61321b8c5600" />
 
 </manifest>
