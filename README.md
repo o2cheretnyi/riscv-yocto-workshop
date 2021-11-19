@@ -16,7 +16,7 @@ and type next commands:
 
 ~/workspace/yocto$ chmod +x ../bin/repo
 
-~/workspace/yocto$ echo "export PATH=~/workspace/bin:$PATH" >> ~/.bashrc ; source ~/.bashrc
+\~/workspace/yocto$ echo "export PATH=\~/workspace/bin:$PATH" >> ~/.bashrc ; source ~/.bashrc
 
 ~/workspace/yocto$ repo init -u https://github.com/o2cheretnyi/riscv-yocto-workshop.git -b main -m yocto-workshop.xml
 # takes approx. 3 minutes
