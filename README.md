@@ -7,12 +7,18 @@ We have to download some cached data to save a time before the workshop starts, 
 and type next commands:
 
 ~$ sudo apt-get update
+
 ~$ sudo apt-get install python binutils chrpath cpp diffstat g++ gcc liblz4-tool make zstd libc-dev-bin python3-setuptools curl git gawk git-lfs
+
 ~$ mkdir -p workspace/{yocto,bin} && cd workspace/yocto
-~/workspace/yocto$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ../bin/repo 
-~/workspace/yocto$ chmod +x ../bin/repo 
-~/workspace/yocto$ echo "export PATH=~/workspace/bin:$PATH" >> ~/.bashrc ; source ~/.bashrc 
-~/workspace/yocto$ repo init -u https://github.com/o2cheretnyi/riscv-yocto-workshop.git -b main -m yocto-workshop.xml 
+
+~/workspace/yocto$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ../bin/repo
+
+~/workspace/yocto$ chmod +x ../bin/repo
+
+~/workspace/yocto$ echo "export PATH=~/workspace/bin:$PATH" >> ~/.bashrc ; source ~/.bashrc
+
+~/workspace/yocto$ repo init -u https://github.com/o2cheretnyi/riscv-yocto-workshop.git -b main -m yocto-workshop.xml
 # takes approx. 3 minutes
 ~/workspace/yocto$ repo sync
 # takes approx. 7 minutes
